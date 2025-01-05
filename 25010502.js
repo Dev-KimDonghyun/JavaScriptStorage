@@ -47,5 +47,5 @@ const user = {
 const privateKey = Symbol("privateKey");
   
 // Symbol 키를 사용해 비공개 데이터 추가
-user[privateKey] = "secret123"; // 유일한 Symbol로 추가된 키
+user[privateKey] = "secret123"; // 유일한 Symbol로 Object에 추가된 키
   
