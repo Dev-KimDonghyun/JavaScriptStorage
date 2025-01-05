@@ -23,12 +23,12 @@ function makeList (name, age) {
     };
 };
 
-const elly = makeList ('Elly', '24');
+const elly = makeList ('Elly', 24);
 console.log(elly);
 
 const mike = {
     name: 'Mike',
-    age: '20',
+    age: 20,
 };
 
 for (key in mike) {
